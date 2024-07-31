@@ -1,9 +1,9 @@
 # To run this file
 
--Open XAMPP
--import weather_db.sql to the phpmyadmin
--put this files in the htdocs
--to run, put this link in the browser "http://localhost/Openweatherapp/index.html"
+<br>-Open XAMPP
+<br>-import weather_db.sql to the phpmyadmin
+<br>-put this files in the htdocs
+<br>-to run, put this link in the browser "http://localhost/Openweatherapp/index.html"
 
 #Description
 
