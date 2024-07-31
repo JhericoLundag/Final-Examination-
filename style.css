@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.map-container {
+    width: 90%;
+    max-width: 1000px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 20px;
+}
+
+#map {
+    height: 600px;
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.custom-cloud-icon {
+    background-color: transparent; 
+}
+
+
+
+
+@media (max-width: 1024px) {
+    #map {
+        height: 500px;
+    }
+}
+
+@media (max-width: 768px) {
+    .map-container {
+        padding: 15px;
+    }
+
+    #map {
+        height: 400px;
+    }
+}
+
+@media (max-width: 480px) {
+    .map-container {
+        padding: 10px;
+    }
+
+    #map {
+        height: 300px;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+}
